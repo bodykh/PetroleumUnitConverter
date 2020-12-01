@@ -21,12 +21,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/obid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -39,12 +41,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/uslgid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -57,12 +61,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/imgid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -75,12 +81,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/litid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -93,12 +101,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/militid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -111,12 +121,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/cfid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -129,12 +141,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/ciid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -147,12 +161,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/cmid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
@@ -165,12 +181,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/ccmid"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/edittextstyle"
             android:cursorVisible="true"
+            android:digits="0123456789-."
             android:hint="0000.0000"
-            android:inputType="numberSigned|number|numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:padding="10dp"
             android:textCursorDrawable="@color/colorPrimary" />
 
