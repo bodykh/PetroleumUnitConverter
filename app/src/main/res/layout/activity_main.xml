@@ -76,10 +76,23 @@
         android:id="@+id/tb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:background="@color/colorPrimaryDark"
         android:onClick="temperature_but"
         android:paddingVertical="18dp"
         android:text="Temperature"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/frb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="flowrate_but"
+        android:paddingVertical="18dp"
+        android:text="Flow Rate"
         android:textAllCaps="false"
         android:textColor="@color/colorAccent"
         android:textSize="24sp" />

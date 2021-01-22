@@ -42,4 +42,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent5 = new Intent(MainActivity.this, temperatureconv.class);
         startActivity(intent5);
     }
+
+    public void flowrate_but(View view) {
+        Intent intent6 = new Intent(MainActivity.this, flowrateconv.class);
+        startActivity(intent6);
+    }
 }

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".temperatureconv"></activity>
+        <activity android:name=".flowrateconv"></activity>
+        <activity android:name=".temperatureconv" />
         <activity android:name=".pressureconv" />
         <activity android:name=".lengthconv" />
         <activity android:name=".areaconv" />
