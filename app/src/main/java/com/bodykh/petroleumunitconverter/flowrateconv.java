@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.InputFilter;
 import android.text.TextWatcher;
 import android.widget.EditText;
+import java.text.DecimalFormat;
 
 public class flowrateconv extends AppCompatActivity {
     private EditText edbs1, edbm2, edbh3, edbd4, edgs5, edgm6, edgh7, edgd8, edls9, edlm10, edlh11, edld12, edcms13, edcmm14,
@@ -13,6 +15,7 @@ public class flowrateconv extends AppCompatActivity {
     private String num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, num11, num12, num13, num14,
             num15, num16, num17, num18, num19, num20, num21, num22, num23, num24, num25, num26, num27, num28;
 
+    DecimalFormat number = new DecimalFormat("##########.#######");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +49,7 @@ public class flowrateconv extends AppCompatActivity {
         edafm26 = findViewById(R.id.afm26);
         edafh27 = findViewById(R.id.afh27);
         edafd28 = findViewById(R.id.afd28);
+
         edbs1.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -58,6 +62,7 @@ public class flowrateconv extends AppCompatActivity {
                 if (edbs1.isFocused()) {
                     if (num1.length() > 0) {
                         edbs1toall();
+
                     } else {
                         // edbs1.setText("");
                         edbm2.setText("");
